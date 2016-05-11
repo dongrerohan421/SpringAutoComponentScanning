@@ -9,6 +9,7 @@
 	<configs>
 		<config>src/main/resources/SpringAutoScan.xml</config>
 		<config>src/main/resources/SpringAutoScanFilter.xml</config>
+		<config>src/main/resources/byName/spring-conf.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
