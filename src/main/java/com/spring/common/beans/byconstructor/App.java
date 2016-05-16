@@ -10,6 +10,7 @@ public class App {
 		try {
 
 			@SuppressWarnings("resource")
+			ApplicationContext context = new ClassPathXmlApplicationContext("/byConstructor/spring-conf.xml");
 
 			// Getting instance
 			Orange orange = (Orange) context.getBean("orange");
