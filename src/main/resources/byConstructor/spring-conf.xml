@@ -7,6 +7,6 @@
 	</bean>
 
 	<bean id="orange" class="com.spring.common.beans.byconstructor.Orange">
-		<constructor-arg ref="apple" name="apple" />
+		<constructor-arg name="apple" ref="apple"  />
 	</bean>
 </beans>
